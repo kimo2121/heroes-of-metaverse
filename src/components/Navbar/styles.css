@@ -36,6 +36,7 @@
   transition: height 0.3s;
   padding: 10px 0;
   height: 80px;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.486);
 }
 .navbar.height {
   height: 65.6px;

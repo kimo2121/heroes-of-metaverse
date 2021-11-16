@@ -16,7 +16,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="banner"></div>
+      <div className="banner">
+        <Button text="VIEW ON OPENSEA" />
+      </div>
       <Welcome />
       <Exclusive />
       <Guests />
