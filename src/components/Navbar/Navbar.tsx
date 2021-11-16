@@ -78,7 +78,7 @@ const Navbar = () => {
           <a href="/">
             <Twitter />
           </a>
-          <Button text="JOIN OUR DISCORD" />
+          <Button className="mob-wallet" text="JOIN OUR DISCORD" />
         </div>
       </div>
       <div className="slide-menu">
@@ -86,13 +86,13 @@ const Navbar = () => {
           <div className="logo mobile-logo">
             <h3>Logo</h3>
           </div>
-          <div>
+          <div className="mob-menu-btn">
             <HiMenu
               onClick={toggleAccordion}
               className={menu ? "slide-menu-icon active" : "slide-menu-icon"}
             />
 
-            <Button text="JOIN OUR DISCORD" />
+            <Button className="mob-wallet" text="JOIN OUR DISCORD" />
           </div>
         </div>
         <div

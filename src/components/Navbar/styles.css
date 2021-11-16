@@ -23,6 +23,10 @@
   color: white;
   margin-right: 20px;
 }
+.mob-menu-btn {
+  display: flex;
+  align-items: center;
+}
 .navbar {
   z-index: 10;
   background-color: black;
@@ -51,10 +55,7 @@
 .logo.height a {
   font-size: 20px;
 }
-.logo img {
-  width: 50px;
-  height: 38px;
-}
+
 .logo {
   display: flex;
   align-items: center;
@@ -80,9 +81,7 @@
   align-items: center;
   transition: all 0.3s;
 }
-.mobile-logo a {
-  font-size: 20px;
-}
+
 .accordion__content {
   overflow: auto;
   transition: max-height 0.4s ease;
@@ -124,6 +123,9 @@
   z-index: 100000;
   font-size: 20px;
   margin-right: 20px;
+  width: 30px !important;
+  height: 30px !important;
+
   color: white;
 }
 .nav-links a:hover {

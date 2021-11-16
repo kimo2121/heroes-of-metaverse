@@ -7,7 +7,7 @@ interface BtnTypes {
 }
 
 const Button: React.FC<BtnTypes> = ({ className, text }) => {
-  return <button className="general-btn">{text}</button>;
+  return <button className={`general-btn ${className}`}>{text}</button>;
 };
 
 export default Button;

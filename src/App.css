@@ -82,7 +82,7 @@ strong {
 }
 @media screen and (max-width: 400px) {
   .banner {
-    background-size: 140% 120%;
+    background-size: 150% 120%;
     height: 50vh;
     width: 100%;
     margin-bottom: 50px;
