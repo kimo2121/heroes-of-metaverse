@@ -1,0 +1,19 @@
+.header p {
+  color: #999999;
+  display: flex;
+  align-items: center;
+}
+.header p span {
+  width: 135px;
+  margin-left: 20px;
+  height: 1.5px;
+  background-color: #999999;
+}
+.header h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+.header span {
+  color: #b250ff;
+}

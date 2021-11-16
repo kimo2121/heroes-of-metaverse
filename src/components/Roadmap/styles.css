@@ -1,0 +1,100 @@
+.roads-container {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.each-road {
+  justify-content: flex-start;
+  text-align: left;
+  display: flex;
+  margin: 20px 0;
+  height: 138px;
+  align-items: center;
+}
+.each-road p {
+  width: 1016px;
+  margin: 0 auto;
+  line-height: 150%;
+  color: #999999;
+}
+.each-road h1 {
+  border: 1px solid rgba(128, 128, 128, 0.61);
+  padding: 48px 0;
+  margin-right: 50px;
+  font-size: 36px;
+  color: #b450ff;
+  text-align: center;
+  box-sizing: border-box;
+  width: 150px;
+}
+.each-road h3 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1250px) {
+  .roads-container {
+    width: 950px;
+  }
+  .each-road p {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .roads-container {
+    width: 720px;
+  }
+  .each-road p {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roads-container {
+    width: 90%;
+  }
+  .each-road div {
+    width: 70%;
+  }
+  .each-road p {
+    width: 100%;
+    margin: 0;
+  }
+  .each-road h1 {
+    margin-right: 20px;
+  }
+  .each-road {
+    height: 150px;
+    margin: 50px auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .roads-container {
+    width: 90%;
+  }
+  .each-road div {
+    width: 80%;
+  }
+  .each-road p {
+    width: 100%;
+    margin: 0;
+  }
+  .each-road h1 {
+    font-size: 24px;
+    width: 100px;
+    margin-right: 20px;
+  }
+  .each-road {
+    height: 150px;
+    margin: 50px auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .each-road {
+    height: 200px;
+    margin: 70px auto;
+  }
+  .each-road h1 {
+    width: 70px;
+  }
+}

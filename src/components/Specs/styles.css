@@ -1,0 +1,49 @@
+.specs-container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.specs {
+  margin: 100px 0;
+}
+
+.specs h1 {
+  font-size: 20px;
+  color: #b450ff;
+}
+.each-spec {
+  border: 1px solid rgba(255, 255, 255, 0.637);
+  padding: 40px 24px;
+  width: 246.5px;
+  margin-right: 10px;
+  height: 238px;
+  box-sizing: border-box;
+}
+.each-spec h3 {
+  font-size: 24px;
+}
+.each-spec P {
+  color: rgba(255, 255, 255, 0.589);
+  font-size: 14px;
+}
+.each-spec:hover {
+  background-color: white;
+}
+.each-spec:hover h3 {
+  color: black;
+}
+.each-spec:hover P {
+  color: rgba(0, 0, 0, 0.589);
+}
+@media screen and (max-width: 1300px) {
+  .specs-container {
+    width: 90%;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .each-spec {
+    margin: 10px;
+  }
+}

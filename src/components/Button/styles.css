@@ -1,0 +1,11 @@
+:root {
+  --border: linear-gradient(270deg, #ff9dff, #00fbf5);
+}
+.general-btn {
+  background: linear-gradient(90deg, #7f18bb, #35249b) !important;
+  color: white;
+  padding: 0 32px;
+  font-weight: 700;
+  height: 56px;
+  border: 5px solid var(--border);
+}

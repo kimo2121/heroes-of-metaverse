@@ -1,0 +1,37 @@
+.footer span {
+  color: #999999;
+  margin-top: 10px;
+  display: block;
+}
+.footer {
+  padding: 64px;
+}
+.footer p {
+  color: #b450ff;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
+.external-links {
+  display: flex;
+  justify-content: center;
+}
+.external-links svg {
+  width: 15px;
+  height: 15px;
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 5px;
+  margin-right: 10px;
+}
+.external-links svg:hover {
+  border: 2px solid rgba(178, 80, 255);
+}
+@media screen and (max-width: 576px) {
+  .footer p {
+    width: 90%;
+    word-wrap: break-word;
+  }
+}

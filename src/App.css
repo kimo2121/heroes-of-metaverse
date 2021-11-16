@@ -1,38 +1,51 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  margin-right: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.external-links {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.internal-links {
+  display: flex;
+  align-items: center;
+}
+.banner {
+  background-image: url(/src/assets/banner.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+strong {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.party-never {
+  padding-top: 80px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.472);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.party-never h2 {
+  color: #b450ff;
+  font-size: 18px;
+}
+.party-never h1 {
+  color: white;
+  font-size: 48px;
+}
+@media screen and (max-width: 576px) {
+  .party-never h1 {
+    font-size: 32px;
+    width: 70%;
+    margin: 20px auto;
   }
 }

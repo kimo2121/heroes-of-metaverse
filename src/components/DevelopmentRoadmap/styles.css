@@ -1,0 +1,83 @@
+.development h2 {
+  font-size: 36px;
+}
+.development {
+  margin-top: 100px;
+}
+.development > p {
+  width: 700px;
+  margin: 0 auto;
+  line-height: 150%;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.each-dev {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.341);
+  text-align: left;
+  width: 1250px;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.each-dev:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.341);
+}
+.each-dev:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.341);
+}
+.each-dev p {
+  width: 750px;
+}
+.each-dev h3 {
+  width: 530px;
+  font-size: 20px;
+}
+.each-dev:nth-child(even) h3 {
+  color: white;
+}
+.each-dev:nth-child(odd) h3 {
+  color: #b450ff;
+}
+.each-dev:nth-child(odd) p {
+  color: white;
+}
+.each-dev:nth-child(even) p {
+  color: #999999;
+}
+@media screen and (max-width: 1300px) {
+  .each-dev {
+    width: 950px;
+  }
+  .development > p {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .each-dev {
+    width: 90%;
+  }
+  .each-dev p {
+    width: 70%;
+  }
+  .development > p {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .each-dev {
+    flex-direction: column;
+    align-content: center;
+  }
+  .each-dev p {
+    width: 100%;
+  }
+  .development > p {
+    width: 70%;
+  }
+  .each-dev h3 {
+    width: 100%;
+  }
+}
