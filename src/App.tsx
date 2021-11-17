@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="banner">
-        <Button text="VIEW ON OPENSEA" />
+        <Button className="mint-btn" text="VIEW ON OPENSEA" />
       </div>
       <Welcome />
       <Exclusive />

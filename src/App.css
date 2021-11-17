@@ -80,14 +80,14 @@ strong {
     background-size: 140% 120%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .banner {
-    background-size: 150% 120%;
-    height: 50vh;
+    /* background-size: 150% 120%; */
+    height: 40vh;
     width: 100%;
     margin-bottom: 50px;
   }
   .banner button {
-    margin-top: 200px;
+    top: 220px;
   }
 }
