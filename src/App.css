@@ -82,12 +82,25 @@ strong {
 }
 @media screen and (max-width: 450px) {
   .banner {
-    /* background-size: 150% 120%; */
-    height: 40vh;
+    background-size: contain;
+    height: 30vh;
     width: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .banner button {
-    top: 220px;
+    /* top: 220px; */
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    background-size: contain;
+    height: 20vh;
+    width: 100%;
+    /* margin-bottom: 50px; */
+  }
+  .banner button {
+    /* top: 220px; */
+    margin-top: 100px;
   }
 }
