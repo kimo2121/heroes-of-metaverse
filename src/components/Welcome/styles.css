@@ -73,3 +73,10 @@
     height: 90%;
   }
 }
+@media screen and (max-width: 576px) {
+  .welcome-left img {
+    width: 70%;
+    margin: 10px 0;
+    height: 70%;
+  }
+}

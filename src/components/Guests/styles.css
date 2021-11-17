@@ -74,3 +74,11 @@
     margin-right: 0;
   }
 }
+@media screen and (max-width: 576px) {
+  .guest img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
