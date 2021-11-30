@@ -7,39 +7,63 @@ interface RoadsData {
 }
 export const RoadData: RoadsData["data"] = [
   {
-    percentage: "10%",
-    title: "GRAND OPENING",
+    percentage: "0%",
+    title: "WIDE OPEN",
     subject:
-      "Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.",
+      "Congratulations, you are on the guest list.  Join the community on Discord. Be a hero with us.",
   },
   {
     percentage: "20%",
-    title: "ROUND OF SHOTS",
-    subject:
-      "A $30,000 fund is available to finance the community’s creations, designs, and development. Also, 1% of the OpenSea fees are dedicated to this special fund, ensuring the Billionaire’s club longevity through common projects.",
+    title: "ROUND TABLES",
+    subject: `Be a Hero is about saving people, that's why we will fund wells
+      and schools in the image of our heroes. In addition, 2% of
+      OpenSea's fees will be dedicated to funding and rewarding
+      Hero ideas that will make the project sustainable.`,
   },
   {
     percentage: "40%",
-    title: "DON’T STOP THE MUSIC",
-    subject:
-      "Access to an Exclusive investments and business club (meetings, conferences, social events)… That’s not all, the lucky owners of our SPECIAL EDITION pieces will get monthly rewards and gifts as $500/month.",
+    title: "FAMOUS HEROES",
+    subject: ` Launching our Comics
+      or Manga production
+      (depending on you) and we
+      need to specify the heroes
+      no need for reward but 50%
+      of the profits will be
+      redistributed to you because
+      you need to be rewarded.
+      That's not all, the lucky owners
+      of our Elite Heroes coins will have
+      the privilege of being a community
+      leaders.`,
   },
   {
     percentage: "60%",
-    title: "CHAMPAGNE SHOWER",
-    subject:
-      "In the Billionaire club, we are dedicated to giving back. For that reason, $30,000 will be given to a reputable charity picked by the community during a vote on Discord. Started from the bottom, we don’t forget where we come from.",
+    title: "HEROES HQ",
+    subject: `Buy a piece of land on the sandbox to be sure to have our
+      place in the metaverse! We are not finished yet, we are going
+      to create 4 bases for the heroes (cafe, bar, restaurant ... ) your
+      voice will be very important.`,
   },
   {
     percentage: "80%",
-    title: "MAKE IT RAIN",
-    subject:
-      "Daily raffles for an entire month with a chance to win $1000 per day. Monthly surprises for Party APE Holders : unlock exclusive merch release from the Billionaire Club’s Clockroam for holders. We will also create collectible figures and launch collaborations with artists. You will have to stay in touch for monthly Airdrops with future benefits.",
+    title: "HERO TREND",
+    subject: `Start the tsunami in social media with our heroes!
+      Raffles, daily mini games for 30 days or 1 month!
+      A chance to win $3000 per day.
+      Setting up monthly surprises for hero holders. We will
+      also create collectible figures and launch collaborations
+      with artists. You'll need to stay in touch to get monthly
+      privileges with future benefits.`,
   },
   {
     percentage: "100%",
-    title: "AFTER PARTY",
-    subject:
-      "100% The Party Ape liquidity pool is initiated. It’s time to initiate the next steps. Holders spotting the chapter two clues will have access to early rewards giving them a major heads up.",
+    title: "WAR IS COMING",
+    subject: `After all factions have prepared and the ranks
+      are complete, the events of the war will begin.
+      We will produce a pilot episode to show and
+      share our story.
+      The Heroes' cash reserve is full. It's time to
+      blow up the floor to show that being a hero
+      is not for everyone.`,
   },
 ];

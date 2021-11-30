@@ -44,12 +44,13 @@ const Guests = () => {
   return (
     <div className="slider-component">
       <div className="slider-header">
-        <h1>GOLDEN GUESTS</h1>
+        <h1>LEGENDARY HEROES</h1>
         <div>
           <p>
-            <strong>The Golden Guests edition </strong>
-            by the Billionaire Club are the rarest NFTs. They are all hand drawn
-            and have no element in common with the regular collection.
+            <strong>LEGENDARY HEROES edition </strong>by HEROES OF THE METAVERSE
+            are the rarest NFTs. They are all hand drawn and have no element in
+            common with the regular collection. These heroes will give you
+            5,000$ /month with a one year contract renewable for holders !
           </p>
           <Button text="JOIN US TO REGISTER FOR PRESALE" />
         </div>

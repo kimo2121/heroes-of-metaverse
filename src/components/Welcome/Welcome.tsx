@@ -18,20 +18,19 @@ const Welcome = () => {
         <Header
           name="Welcome to the"
           title="About"
-          colored="Billionaire Club"
+          colored="HEROES OF THE METAVERSE"
         />
         <p>
-          <strong>The BILLIONAIRE CLUB</strong>
-          is a private collection of{" "}
-          <strong>10 000 billionaire apes NFTs</strong>—unique digital
-          collectibles. The apes are stored as ERC-721 tokens on the Ethereum
-          blockchain and hosted on IPFS. Reveal on October 20th.
+          <strong>HEROES OF THE METAVERSE </strong>
+          is a private collection of
+          <strong> 2000 heroes NFTs</strong>—unique digital collectibles. The
+          apes are stored as SPL tokens on the SOLANA blockchain and hosted.
+          Reveal on 10 december.
         </p>
         <p>
           With <strong> more than 180+ hand drawn traits</strong>, each NFT is
-          unique and comes with a membership to an exclusive group of successful
-          investors. <strong> Join </strong>an ambitious ever-growing community
-          with multiple benefits and utilities.
+          unique.<strong> Join </strong>an ambitious ever-growing community with
+          multiple benefits and utilities.
         </p>
       </div>
     </div>

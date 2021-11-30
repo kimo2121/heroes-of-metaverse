@@ -10,17 +10,14 @@ const Exclusive = () => {
         <Header
           name="An Exclusive"
           title="FEATURES"
-          colored="Billionaire Club"
+          colored="HEROES OF THE METAVERSE"
         />
         <p>
-          Earlier this year, a mysterious force coming from another galaxy
-          summoned <strong>the most influential people on planet Earth </strong>
-          . They received the geographic coordinates of a secret location for
-          the party : <strong>the Billionaire Club</strong>. There, they will
-          have the opportunity to exchange, discuss and collaborate in order to
-          become even bigger than they are. During this party, the host will
-          reveal its identity and
-          <strong>the main reason for this invitation. </strong>
+          In 2079; the earth’s resources has been depleted to their last
+          reserves. This almost created the end of humanity on earth. 10 years
+          later, only 4 areas of the world were viable to live in. In these
+          areas were 4 regions, the inhabitants of each of these regions had
+          developed powers. Over time, conflicts over resources began to emerge.
         </p>
         <button className="join">
           Join Us

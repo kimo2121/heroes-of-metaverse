@@ -22,7 +22,7 @@
 }
 .slider-header h1 {
   font-size: 36px;
-  margin-right: 150px;
+  margin-right: 50px;
 }
 .slider-header p {
   color: #999999;
@@ -58,7 +58,8 @@
     width: 350px;
   }
   .slider-header h1 {
-    margin-right: 50px;
+    font-size: 32px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 768px) {
