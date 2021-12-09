@@ -6,8 +6,18 @@ import { ReactComponent as OpenSea } from "../../assets/opensea.svg";
 import { ReactComponent as Twitter } from "../../assets/twitter.svg";
 import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
 import { ReactComponent as Instagram } from "../../assets/instagram.svg";
-import Button from "../Button/Button";
+import { WalletMultiButton } from "@solana/wallet-adapter-material-ui";
 
+// const ConnectButton = styled(WalletMultiButton)`
+//   padding: 5px 10px !important;
+//   background-color: #f24259 !important ;
+//   transition: all 0.25s !important;
+//   color: white !important;
+//   &:hover {
+//     background-color: #f24259 !important;
+//     color: black !important;
+//   }
+// `;
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [setActive, setActiveState] = useState("");
@@ -34,9 +44,7 @@ const Navbar = () => {
     <div className={navbar ? "navbar height" : "navbar"}>
       <div className="web-nav">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <div className="logo">
-            <h3>Logo</h3>
-          </div>
+          <div className="logo"></div>
           <div className="nav-links">
             <Link activeClass="active" smooth={true} duration={800} to="About">
               About
@@ -72,27 +80,24 @@ const Navbar = () => {
           <a href="/">
             <Linkedin />
           </a>
-          <a href="/">
+          <a target="_blank" href="https://instagram.com/heroesofthemeta">
             <Instagram />
           </a>
-          <a href="/">
+          <a target="_blank" href="https://twitter.com/Heroesofmeta">
             <Twitter />
           </a>
-          <Button className="mob-wallet" text="JOIN OUR DISCORD" />
+          <WalletMultiButton className="connect-btn" />
         </div>
       </div>
       <div className="slide-menu">
         <div className="slide-outter">
-          <div className="logo mobile-logo">
-            <h3>Logo</h3>
-          </div>
+          <div className="logo mobile-logo"></div>
           <div className="mob-menu-btn">
             <HiMenu
               onClick={toggleAccordion}
               className={menu ? "slide-menu-icon active" : "slide-menu-icon"}
             />
-
-            <Button className="mob-wallet" text="JOIN OUR DISCORD" />
+            <WalletMultiButton className="connect-btn" />
           </div>
         </div>
         <div

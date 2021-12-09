@@ -88,7 +88,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>
@@ -117,7 +117,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>
@@ -146,7 +146,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>
@@ -175,7 +175,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>
@@ -204,7 +204,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>
@@ -233,7 +233,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Once minted, simply connect to your OpenSea account to view your
+              Once minted, simply connect to your Solsea account to view your
               NFTs.
             </Typography>
           </AccordionDetails>

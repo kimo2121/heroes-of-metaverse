@@ -11,7 +11,14 @@
 .external-links svg:hover {
   border: 2px solid rgba(178, 80, 255);
 }
-
+.connect-btn {
+  background: linear-gradient(90deg, #1650c3, #35249b) !important;
+  color: white;
+  padding: 0 25px;
+  font-weight: 700;
+  cursor: pointer;
+  height: 50px;
+}
 .logo {
   color: white;
   font-size: 45px;

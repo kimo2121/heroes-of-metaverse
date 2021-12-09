@@ -18,6 +18,20 @@
   display: flex;
   align-items: center;
 }
+.external-discord {
+  background: linear-gradient(90deg, #1650c3, #35249b) !important;
+  color: white;
+  padding: 0 32px;
+  font-weight: 700;
+  height: 56px;
+  display: block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  border: 5px solid var(--border);
+}
 .banner {
   background-image: url(/src/assets/banner.jpeg);
   background-size: cover;
@@ -38,7 +52,7 @@ strong {
   border-bottom: 1px solid rgba(255, 255, 255, 0.472);
 }
 .party-never h2 {
-  color: #b450ff;
+  color: #1650c3;
   font-size: 18px;
 }
 .party-never h1 {

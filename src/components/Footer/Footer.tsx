@@ -7,9 +7,7 @@ import { ReactComponent as Instagram } from "../../assets/instagram.svg";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-logo">
-        <h1>Logo</h1>
-      </div>
+      <div className="footer-logo"></div>
       <div className="external-links">
         <a href="/">
           <OpenSea />
@@ -17,10 +15,10 @@ const Footer = () => {
         <a href="/">
           <Linkedin />
         </a>
-        <a href="/">
+        <a target="_blank" href="https://instagram.com/heroesofthemeta">
           <Instagram />
         </a>
-        <a href="/">
+        <a target="_blank" href="https://twitter.com/Heroesofmeta">
           <Twitter />
         </a>
       </div>

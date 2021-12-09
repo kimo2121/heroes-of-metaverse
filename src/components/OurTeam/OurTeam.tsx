@@ -46,14 +46,14 @@ const OurTeam = () => {
       <div className="team-title">
         <h1>OUR TEAM</h1>
         <p>
-          The Billionaire club was created by a team of{" "}
-          <strong>digital native </strong>: Entrepreneurs, Blockchain experts,
+          Heroes of the metaverse was created by a team of
+          <strong> digital native</strong>: Entrepreneurs, Blockchain experts,
           Marketing wizards, and Artists… We are committed to delivering a
           cutting-edge experience and making
-          <strong>this project a success.</strong>
+          <strong> this project a success.</strong>
         </p>
       </div>
-      <div className="team">
+      {/* <div className="team">
         <Slider {...settings}>
           {Data.map((item, index) => (
             <div key={index} className="member">
@@ -79,30 +79,8 @@ const OurTeam = () => {
             </div>
           ))}
         </Slider>
-        {/* {Data.map((item, index) => (
-          <div key={index} className="member">
-            <img src={item.img} alt="" />
-            <div>
-              <h3>
-                {item.title}
-                <span>{item.role}</span>
-              </h3>
-              <div>
-                {item.instagram ? (
-                  <a href={item?.instagram} target="_blank">
-                    <Instagram />
-                  </a>
-                ) : undefined}
-                {item.linkedIn ? (
-                  <a href={item?.instagram} target="_blank">
-                    <Linkedin />
-                  </a>
-                ) : undefined}
-              </div>
-            </div>
-          </div>
-        ))} */}
-      </div>
+       
+      </div> */}
     </div>
   );
 };

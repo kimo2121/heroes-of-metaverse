@@ -4,6 +4,7 @@
 }
 .team-container {
   padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #151515;
 }
 .team img {
@@ -29,7 +30,7 @@
   display: block;
   font-size: 16px;
   font-weight: normal;
-  color: #b450ff;
+  color: #1650c3;
 }
 .member {
   margin: 30px 0;
